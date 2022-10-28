@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*ヘッダー*/
+.OLL{
+  background-color: darkgreen;
+}
+
+.HEAD{
+  padding-top: 10px;
+  color:white;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.NAVE{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*メイン*/
+
+.NAME{
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: rgb(42, 42, 42);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+.haikei{
+
+  padding: 10px 40px 40px 40px;
+  background-color: #cbf7a7;
+}
+
+.ASD{
+gap:10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+
+
+/*メイン枠*/
+
+.ZIGA{
+  width: 50px;
+  height: 50px;
+
+}
+
+img{
+  width: 30%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+
+.SYOUKAI{
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+.SYOUKAI2{
+  margin-left: 20px;
+}
+
+
+/*詳細*/
+
+.TANZYOUBI{
+  line-height: 40px;
+  gap:50px;
+  display: flex;
+  flex-direction: row;
+}
+.TANZYOUBI2{
+  font-weight: bold;
+}
+
+
+.SYUSSINNTI{
+  line-height: 40px;
+  gap:50px;
+  display: flex;
+  flex-direction: row;
+}
+.SYUSSINNTI2{
+  font-weight: bold;
+}
+
+
+.SYUMI{
+  line-height: 40px;
+  gap:50px;
+  display: flex;
+  flex-direction: row;
+}
+.SYUMI2{
+  font-weight: bold;
+}
+
+
+.KEIREKI{
+  line-height: 40px;
+  gap:50px;
+  display: flex;
+  flex-direction: row;
+}
+.KEIREKI2{
+  font-weight: bold;
+}
+.KEIREKI3{
+  list-style-type:none;
+}
+
+
+.SIKAKU{
+  line-height: 40px;
+  gap:50px;
+  display: flex;
+  flex-direction: row;
+}
+.SIKAKU2{
+  font-weight: bold;
+}
+.SIKAKU3{
+list-style-type: none;
+}
+
+
+
+.MES{
+  line-height: 40px;
+  gap:50px;
+  display: flex;
+  flex-direction: row;
+}
+.MES2{
+  font-weight: bold;
+}
+
+
+.ICON{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+
+.fa-brands {
+  margin-left: 30px;
+}
+
+
+
+
+/*フッター*/
+
+.hut{
+margin: 0%;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: darkgreen;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .ASD {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .SYOUKAI {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.NAME {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.NAVE {
+    flex-wrap: wrap;
+  }
+}
